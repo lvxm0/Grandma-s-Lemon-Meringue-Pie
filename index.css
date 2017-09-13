@@ -1,0 +1,49 @@
+body {
+  background-image: url("https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg");
+  text-align: center;
+  font-family:Helvetica;
+  font-weight: bold;
+} 
+h1 {
+	color: #FF9900;
+  font-size: 93px;
+}
+strong a {
+	border-style: outset;
+	font-size: 45px;  
+  color: white;  
+  background-color: #FF9900;
+  border-color: #FFFFCC;
+  text-decoration: none;
+  border-radius: 15px;
+ 
+}
+
+h1:hover {
+	text-shadow:2px 2px 4px #CC6600;
+}
+strong a:hover {
+	background-color: #FF6600;
+	opacity: 1;
+}
+a img:hover {
+	opacity: 0.4;
+}
+div.header {
+	padding: 1px;
+	color: white;
+	background-color: #FF9900;
+	clear: left;
+}
+h1.header{
+	padding:0;
+	margin: 0;
+}
+div h1{
+	word-spacing: 1.2em;
+	letter-spacing: 0.3em;
+	font-size: 26px;
+	color: white;
+}
+
+
